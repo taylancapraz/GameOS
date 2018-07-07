@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.canta.project3.ChallangesAndFriendRequestsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/myWhite"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="My Challenges"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:text="My Challenges" />
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/editextstyle" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Friend Requests"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:text="Friend Requests" />
+
+        <ListView
+            android:id="@+id/list_view2"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/editextstyle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/warning_this"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="0.84"
+                android:text="Waiting for request !"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="Waiting for request !" />
+
+            <ProgressBar
+                android:id="@+id/progress_bar_main"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="105dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "933790945245",
+    "firebase_url": "https://gameos-916b4.firebaseio.com",
+    "project_id": "gameos-916b4",
+    "storage_bucket": "gameos-916b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933790945245:android:c1c0577e9dbf2f5c",
+        "android_client_info": {
+          "package_name": "com.example.canta.project2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933790945245-qphjg2db67h3njg85658oh0ih2bcfdgf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.canta.project2",
+            "certificate_hash": "c4c8a3c41510ab923115a546794a66fb9adbbe5a"
+          }
+        },
+        {
+          "client_id": "933790945245-c54tii7ki182f3nq5lla6m5j3bid7fl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.canta.project2",
+            "certificate_hash": "f5b8c4734df6f33c4babc435921b1d76c046364a"
+          }
+        },
+        {
+          "client_id": "933790945245-4iq9oqjovagae0jm4urk1hi0m9ssoi43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQMa3NmqpqSqHO1NUQ3ngHm-7P3Ds4esY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933790945245-4iq9oqjovagae0jm4urk1hi0m9ssoi43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933790945245:android:b45e4ef9b0b500a0",
+        "android_client_info": {
+          "package_name": "com.example.canta.project3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933790945245-bvp6gkt205qmhgueuvjbgp7kseaod730.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.canta.project3",
+            "certificate_hash": "c4c8a3c41510ab923115a546794a66fb9adbbe5a"
+          }
+        },
+        {
+          "client_id": "933790945245-4iq9oqjovagae0jm4urk1hi0m9ssoi43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQMa3NmqpqSqHO1NUQ3ngHm-7P3Ds4esY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933790945245-4iq9oqjovagae0jm4urk1hi0m9ssoi43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

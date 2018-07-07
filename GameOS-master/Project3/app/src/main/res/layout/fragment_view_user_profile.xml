@@ -1,0 +1,138 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myWhite"
+    tools:context="com.example.canta.project3.ViewUserProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/other_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="86dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/other_profile_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/other_profile_name"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/other_profile_name"
+            android:layout_marginTop="36dp"
+            android:text="USERNAME"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/other_profile_surname"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/other_profile_name"
+            android:layout_below="@+id/other_profile_name"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Surname"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/other_profile_city"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/other_profile_surname"
+
+            android:layout_below="@+id/other_profile_surname"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="City"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/other_profile_city"
+            android:layout_alignStart="@+id/other_profile_city"
+            android:layout_below="@+id/other_profile_city"
+            android:layout_marginTop="25dp"
+            android:text="CHALLANGES"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/challange_qq_user"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/button_normal"
+            android:text="Quick Quiz"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/textView13"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignStart="@+id/textView13" />
+
+        <Button
+            android:id="@+id/challange_44_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_normal"
+            android:text="4x4 MemoGame"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/challange_qq_user"
+            android:layout_marginTop="11dp"
+            android:layout_alignEnd="@+id/challange_qq_user"
+            android:layout_alignStart="@+id/challange_qq_user" />
+
+        <Button
+            android:id="@+id/challange_55_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_normal"
+            android:text="5x5 Memogame"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/challange_66_user"
+            android:layout_alignStart="@+id/challange_66_user"
+            android:layout_marginTop="12dp"
+            android:layout_alignEnd="@+id/challange_66_user" />
+
+        <Button
+            android:id="@+id/challange_66_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_normal"
+            android:text="6x6 Memogame"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/textView14"
+            android:layout_alignStart="@+id/challange_44_user"
+            android:layout_alignEnd="@+id/challange_44_user" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/challange_44_user"
+            android:layout_toStartOf="@+id/challange_66_user"
+            android:text="TextView"
+            android:textColor="@android:color/white" />
+
+
+    </RelativeLayout>
+</FrameLayout>

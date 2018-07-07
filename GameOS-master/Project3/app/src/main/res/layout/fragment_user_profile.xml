@@ -1,0 +1,133 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myWhite"
+    tools:context="com.example.canta.project3.userProfile">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textView10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/editextstyle"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:text="Name"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/profile_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/profile_name"
+            android:layout_alignParentTop="true"
+
+            android:layout_alignStart="@+id/profile_name"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"
+            android:text="USERNAME"
+            android:textAlignment="viewStart"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/profile_surname"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/profile_name"
+            android:layout_below="@+id/textView11"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/editextstyle"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:text="Surname"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/profile_city"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/profile_surname"
+            android:layout_below="@+id/textView12"
+
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/editextstyle"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:text="City"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_profile_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/profile_city"
+            android:layout_alignStart="@+id/profile_city"
+            android:layout_below="@+id/profile_city"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_normal"
+            android:text="Save Changes"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/profile_username"
+            android:layout_below="@+id/profile_username"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Your Name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_alignEnd="@+id/profile_name" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/profile_name"
+            android:layout_alignStart="@+id/profile_surname"
+            android:layout_below="@+id/profile_name"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Your Surname"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/profile_surname"
+            android:layout_alignStart="@+id/profile_city"
+            android:layout_below="@+id/profile_surname"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Your City"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</FrameLayout>
